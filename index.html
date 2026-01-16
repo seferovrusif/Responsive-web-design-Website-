@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Personal Portfolio of a Software Engineer" />
+        <meta name="author" content="Portfolio" />
+        <title>My Portfolio - Software Engineer</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <link href="css/styles.css" rel="stylesheet" />
+        <style>
+            .portfolio-link {
+                background-color: #212529 !important; 
+                display: flex !important;
+                justify-content: center !important;
+                align-items: center !important;
+                height: 250px; 
+                text-decoration: none;
+            }
+            .project-icon {
+                font-size: 100px !important; 
+                color: #fed136; 
+            }
+            .portfolio-item:hover .project-icon {
+                color: #ffffff; 
+                transition: 0.3s;
+            }
+        </style>
+    </head>
+    <body id="page-top">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="assets/img/navbar-logo.svg" alt="Logo" /></a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ml-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ml-auto">
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Skills</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About Me</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Favorites</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <header class="masthead">
+            <div class="container">
+                <div class="masthead-subheading">Welcome To My Site!</div>
+                <div class="masthead-heading text-uppercase">It's Nice To Meet You</div>
+                <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Let's Start</a>
+            </div>
+        </header>
+        <section class="page-section" id="services">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Skills</h2>
+                    <h3 class="section-subheading text-muted">My technical expertise and professional capabilities.</h3>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-code fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Core Skills</h4>
+                        <p class="text-muted">Specialized in C# development including .NET Core, Web API, MVC, and Entity Framework, with a strong foundation in MS SQL Server.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-tools fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Additional Proficiencies</h4>
+                        <p class="text-muted">Experienced with Python, SQL, Git, and Frontend tools like Bootstrap, HTML/CSS, alongside network simulation in Cisco Packet Tracer.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-lightbulb fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Soft Skills</h4>
+                        <p class="text-muted">A fast learner and proactive problem-solver with strong adaptability, attention to detail, and a commitment to effective teamwork.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+           <section class="page-section bg-light" id="portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Projects</h2>
+                    <h3 class="section-subheading text-muted">A showcase of my recent backend and full-stack work.</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                                <div class="portfolio-hover"><div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div></div>
+                                <i class="fas fa-briefcase project-icon"></i>
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Job Search System</div>
+                                <div class="portfolio-caption-subheading text-muted">ASP.NET Core Web API</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+                                <div class="portfolio-hover"><div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div></div>
+                                <i class="fas fa-shopping-bag project-icon"></i>
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">SFY Platform</div>
+                                <div class="portfolio-caption-subheading text-muted">Custom Bag E-commerce</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+                                <div class="portfolio-hover"><div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div></div>
+                                <i class="fas fa-laptop-code project-icon"></i>
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">MVC Prototypes</div>
+                                <div class="portfolio-caption-subheading text-muted">API & Patterns Practice</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+     <section class="page-section" id="about">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">About Me</h2>
+            <h3 class="section-subheading text-muted">My journey, education, and professional credentials.</h3>
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-10">
+                    <p class="text-muted" style="font-size: 1.1rem; line-height: 1.6;">
+                        Motivated and detail-oriented junior backend developer with hands-on experience in <strong>C#, .NET, MVC, Web API, and SQL-based systems</strong>. 
+                        I have practical knowledge of Entity Framework and experience working with Python for algorithmic tasks. 
+                        Familiar with networking basics from cybersecurity studies and tools like Git, Cisco Packet Tracer, and Linux. 
+                        Currently based in <strong>Warsaw, Poland</strong>, I am focused on building secure, efficient, and scalable backend solutions.
+                    </p>
+                    
+                    
+
+
+                </div>
+            </div>
+        </div>
+
+        <ul class="timeline">
+            <li>
+                <div class="timeline-image" style="background-color: #fed136; display: flex; align-items: center; justify-content: center;">
+                    <i class="fas fa-university fa-3x text-white"></i>
+                </div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>Oct 2024 - Present</h4>
+                        <h4 class="subheading">Vistula University</h4>
+                    </div>
+                    <div class="timeline-body">
+                        <p class="text-muted">Master of Computer Engineering in Cybersecurity. Relocated to <strong>Warsaw, Poland</strong>, where I currently reside and continue my studies in advanced network security.</p>
+                    </div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-image" style="background-color: #fed136; display: flex; align-items: center; justify-content: center;">
+                    <i class="fas fa-microscope fa-3x text-white"></i>
+                </div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>Feb - Mar 2024</h4>
+                        <h4 class="subheading">Institute of Control Systems</h4>
+                    </div>
+                    <div class="timeline-body">
+                        <p class="text-muted">Junior Intern. Improved algorithmic skills using Python and provided support for backend debugging and data processing.</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="timeline-image" style="background-color: #fed136; display: flex; align-items: center; justify-content: center;">
+                    <i class="fas fa-credit-card fa-3x text-white"></i>
+                </div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>Feb 2023 - Feb 2024</h4>
+                        <h4 class="subheading">Software Engineer Intern | Azericard</h4>
+                    </div>
+                    <div class="timeline-body">
+                        <p class="text-muted">Hands-on experience with C#, .NET, and SQL in a financial environment, focusing on secure API integrations.</p>
+                    </div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-image" style="background-color: #fed136; display: flex; align-items: center; justify-content: center;">
+                    <i class="fas fa-graduation-cap fa-3x text-white"></i>
+                </div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>2020 - 2024</h4>
+                        <h4 class="subheading">AzUAC (Bachelor's Degree)</h4>
+                    </div>
+                    <div class="timeline-body">
+                        <p class="text-muted">Bachelor in Information Technologies. Foundation in software development and technical problem-solving.</p>
+                    </div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-image">
+                    <h4>This<br />Is My<br />Story!</h4>
+                </div>
+            </li>
+        </ul>
+        <hr class="my-4">
+                    
+                    <div class="row text-left">
+                        <div class="col-md-6 mb-3">
+                            <h5 class="text-uppercase"><i class="fas fa-language mr-2"></i> Languages</h5>
+                            <small class="text-muted">
+                                <strong>English:</strong> B2 | <strong>Azerbaijani:</strong> Native | 
+                                <strong>Turkish:</strong> C1 | <strong>Polish:</strong> A1
+                            </small>
+                        </div>
+                        <div class="col-md-6">
+                            <h5 class="text-uppercase"><i class="fas fa-certificate mr-2"></i> Key Certifications</h5>
+                            <ul class="list-unstyled text-muted" style="font-size: 0.85rem;">
+                                <li>• Code Academy: Backend FullStack Bootcamp (2024)</li>
+                                <li>• Cisco: Python Essentials & Cybersecurity (2025)</li>
+                                <li>• SQL Programmer Training (2022)</li>
+                            </ul>
+                        </div>
+                    </div>
+    </div>
+</section>
+        <section class="page-section bg-light" id="team">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">My Favorites & Hobbies</h2>
+                    <h3 class="section-subheading text-muted">What I enjoy doing outside of my professional life.</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <i class="fas fa-volleyball-ball fa-4x mb-3 text-primary"></i>
+                            <h4>Volleyball</h4>
+                            <p class="text-muted">I love playing volleyball; it keeps me active and teaches me the value of teamwork and quick reflexes.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <i class="fas fa-film fa-4x mb-3 text-primary"></i>
+                            <h4>Cinema & Travel</h4>
+                            <p class="text-muted">Exploring new stories through movies and discovering different cultures through travel broadens my horizons.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <i class="fas fa-search fa-4x mb-3 text-primary"></i>
+                            <h4>Research & Learning</h4>
+                            <p class="text-muted">I am naturally curious and enjoy researching new technologies to stay up-to-date with digital trends.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="page-section" id="contact">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Get In Touch</h2>
+                    <h3 class="section-subheading text-muted">Feel free to reach out for collaborations or inquiries.</h3>
+                </div>
+                <form id="contactForm" name="sentMessage" novalidate="novalidate">
+                    <div class="row align-items-stretch mb-5">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input class="form-control" id="name" type="text" placeholder="Your Name *" required="required" />
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" id="email" type="email" placeholder="Your Email *" required="required" />
+                            </div>
+                            <div class="form-group mb-md-0">
+                                <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" required="required" />
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group form-group-textarea mb-md-0">
+                                <textarea class="form-control" id="message" placeholder="Your Message *" required="required"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-left">Copyright © My Portfolio 2024</div>
+                    <div class="col-lg-4 my-3 my-lg-0">
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/rusif-safarov/"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://github.com/seferovrusif"><i class="fab fa-github"></i></a>
+                    </div>
+                    <div class="col-lg-4 text-lg-right">
+                        <a class="mr-3" href="#!">Privacy Policy</a>
+                        <a href="#!">Terms of Use</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <h2 class="text-uppercase">Job Search System - Backend API</h2>
+                                    <p class="item-intro text-muted">A scalable Job Search System backend developed using ASP.NET Core Web API.</p>
+                                    <p>The project includes a robust layered architecture (API, Business, Data Access) designed for high maintainability. It features:</p>
+                                    <ul class="list-group list-group-flush mb-4">
+                                        <li class="list-group-item"><strong>Secure Auth:</strong> User registration & login with JWT & Email confirmation.</li>
+                                        <li class="list-group-item"><strong>Authorization:</strong> Advanced Role-based access control.</li>
+                                        <li class="list-group-item"><strong>Clean Architecture:</strong> Implementation of Repository & Service patterns.</li>
+                                        <li class="list-group-item"><strong>Validation:</strong> FluentValidation & AutoMapper integration for clean data flow.</li>
+                                        <li class="list-group-item"><strong>Stack:</strong> C#, EF Core, ASP.NET Identity, SQL Server, Swagger, Git.</li>
+                                    </ul>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">Close Project</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <h2 class="text-uppercase">SFY Platform</h2>
+                                    <p class="item-intro text-muted">Custom Bag E-commerce System</p>
+                                    <p>Similar to the Job Search system, I applied high-level backend principles here but with a much more complex database structure. This platform allows users to create custom bags and place orders.</p>
+                                    <ul class="list-group list-group-flush mb-4">
+                                        <li class="list-group-item"><strong>Database:</strong> Complex relational schema for customizable product attributes.</li>
+                                        <li class="list-group-item"><strong>Logic:</strong> Intricate ordering and design-selection algorithms.</li>
+                                        <li class="list-group-item"><strong>Security:</strong> Secure payment simulation and user data protection.</li>
+                                        <li class="list-group-item"><strong>Architecture:</strong> Same clean architecture and pattern standards as my other professional APIs.</li>
+                                    </ul>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">Close Project</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <h2 class="text-uppercase">Full-Stack & MVC Prototypes</h2>
+                                    <p class="item-intro text-muted">Academic and personal growth projects.</p>
+                                    <p>During my learning period, I built several MVC websites and API prototypes to master core software engineering patterns.</p>
+                                    <ul class="list-group list-group-flush mb-4">
+                                        <li class="list-group-item"><strong>API Testing:</strong> Extensive use of Postman and Swagger for endpoint documentation.</li>
+                                        <li class="list-group-item"><strong>Patterns:</strong> Hands-on experience with MVC (Model-View-Controller) and N-Tier architecture.</li>
+                                        <li class="list-group-item"><strong>Tools:</strong> Proficiency in Entity Framework Core, SQL Server Profiler, and Git workflows.</li>
+                                    </ul>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">Close Project</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
